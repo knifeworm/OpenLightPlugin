@@ -1,0 +1,7 @@
+name: OpenLight
+version: '${project.version}'
+main: me.knifeworm.openlight.OpenLight
+api-version: 1.18
+authors: [ knifeworm ]
+description: Open source plugin.
+website: https://github.com/knifeworm/OpenLightPlugin
