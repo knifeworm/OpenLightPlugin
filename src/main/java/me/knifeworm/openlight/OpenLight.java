@@ -31,5 +31,6 @@ public final class OpenLight extends JavaPlugin {
     public void loadEvents()
     {
         getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
+        getServer().getPluginManager().registerEvents(new OnPlayerQuit(), this);
     }
 }
