@@ -25,6 +25,7 @@ public final class OpenLight extends JavaPlugin {
     // Loads all the commands.
     public void loadCommands()
     {
+        Bukkit.getPluginCommand("gms").setExecutor(new GamemodeSurvival());
         Bukkit.getPluginCommand("gmc").setExecutor(new GamemodeCreative());
     }
 
