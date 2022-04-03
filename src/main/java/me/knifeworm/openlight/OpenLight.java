@@ -1,5 +1,6 @@
 package me.knifeworm.openlight;
 
+import me.knifeworm.openlight.commands.*;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -24,7 +25,7 @@ public final class OpenLight extends JavaPlugin {
     // Loads all the commands.
     public void loadCommands()
     {
-
+        Bukkit.getPluginCommand("gmc").setExecutor(new GamemodeCreative());
     }
 
     // Loads all the events.

@@ -5,3 +5,8 @@ api-version: 1.18
 authors: [ knifeworm ]
 description: Open source plugin.
 website: https://github.com/knifeworm/OpenLightPlugin
+commands:
+  gmc:
+    description: Sets your or another persons gamemode to creative.
+    aliases:
+      - creative
