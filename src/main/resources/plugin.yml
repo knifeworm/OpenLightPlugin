@@ -14,3 +14,7 @@ commands:
     description: Sets your or another persons gamemode to survival.
     aliases:
       - survival
+  gmsp:
+    description: Sets your or another persons gamemode to spectator.
+    aliases:
+      - spectator
