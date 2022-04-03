@@ -10,3 +10,7 @@ commands:
     description: Sets your or another persons gamemode to creative.
     aliases:
       - creative
+  gms:
+    description: Sets your or another persons gamemode to survival.
+    aliases:
+      - survival
