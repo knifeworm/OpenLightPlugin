@@ -29,6 +29,7 @@ public final class OpenLight extends JavaPlugin {
         Bukkit.getPluginCommand("gmc").setExecutor(new GamemodeCreative());
         Bukkit.getPluginCommand("gmsp").setExecutor(new GamemodeSpectator());
         Bukkit.getPluginCommand("gma").setExecutor(new GamemodeAdventure());
+        Bukkit.getPluginCommand("fly").setExecutor(new FlyCommand());
     }
 
     // Loads all the events.
