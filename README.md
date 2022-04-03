@@ -12,3 +12,6 @@ You can edit by creating pull requests and ill accept them.
 You can join our server here.
 defr3.forcehost.net:1847
 This server is 1.18.1 and u can also see if your feature has been added here.
+
+# PLUGIN ON SPIGOT
+https://www.spigotmc.org/resources/openlight.101151/
