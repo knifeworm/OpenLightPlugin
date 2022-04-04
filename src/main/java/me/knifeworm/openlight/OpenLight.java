@@ -82,7 +82,7 @@ public final class OpenLight extends JavaPlugin {
     public static boolean shouldCheck(User user, CheckType type){
         return !DISABLED_CHECKS.contains(type);
     }
-    
+
     public static boolean isSilent(){
         return false;
     }
